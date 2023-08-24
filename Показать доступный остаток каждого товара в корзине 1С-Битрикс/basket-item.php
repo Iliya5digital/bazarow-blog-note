@@ -1,0 +1,3 @@
+Доступно:
+{{PRODUCT_QUANTITY}} 
+{{MEASURE_RATIO}}
