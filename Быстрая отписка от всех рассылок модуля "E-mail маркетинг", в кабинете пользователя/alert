@@ -1,0 +1,6 @@
+<form method="post" action="" onsubmit="return confirm('Подтвердите отписку от рассылок.');">
+        <input type="hidden" name="UNSUBSCRIBE" value="UNSUBSCRIBE"/>
+        <button>
+           Отписаться от рассылки
+        </button>
+    </form>
