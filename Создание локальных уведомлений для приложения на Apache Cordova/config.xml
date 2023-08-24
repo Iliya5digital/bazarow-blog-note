@@ -1,0 +1,18 @@
+ <plugin name="cordova-plugin-local-notification-12" spec="0.1.4">
+        <variable name="APP_THEME" value="YOUR_APP_THEME" />
+        <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
+        <variable name="ANDROIDX_CORE_VERSION" value="1.+" />
+        <variable name="ANDROIDX_APPCOMPAT_VERSION" value="1.+" />
+        <variable name="IOS_DEPLOYMENT_TARGET" value="10.0" />
+        <variable name="NSUSERNOTIFICATION_TYPE" value="alert, badge, sound" />
+    </plugin>
+     <platform name="android">
+        <preference name="AndroidXEnabled" value="true" />
+        <preference name="android-targetSdkVersion" value="31"/>
+        <preference name="android-minSdkVersion" value="29"/>
+    </platform>
+    <platform name="ios">
+        <feature name="LocalNotification">
+            <param name="ios-package" value="UILocalNotification" />
+        </feature>
+    </platform>
