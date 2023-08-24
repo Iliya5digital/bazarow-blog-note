@@ -1,0 +1,7 @@
+cordova.plugins.notification.local.schedule({
+    title: 'Новый заказ',
+    text: 'У вас есть новый заказ. Пожалуйста, проверьте приложение.',
+    foreground: true,
+    vibrate: true,
+    sound: null
+});
