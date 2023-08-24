@@ -1,0 +1,2 @@
+<allow-intent href="tg://*/*" />
+<allow-intent href="whatsapp://*/*" />
