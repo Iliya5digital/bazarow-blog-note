@@ -1,0 +1,1 @@
+usort($arResult['OFFERS'], 'resortOffersByPrice');
