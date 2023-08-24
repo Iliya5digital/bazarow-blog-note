@@ -1,0 +1,43 @@
+@media print {
+  .product-item-detail-slider-controls-block,
+  .product-item-detail-slider-right,
+  .product-item-detail-slider-left,
+  .detail_item_content_buttons,
+  .detail_dopactives,
+  .detail_item_content_quant,
+  .product-item-detail-slider-container,
+  .tabs_links,
+  .detail_item_content_brand {
+    display: none !important;
+  }
+  .image_for_print {
+    display: block;
+    width: 300px;
+    height: auto;
+  }
+  .tab_cont {
+    display: block !important;
+  }
+  .detail_item_content_tabs .tab_cont {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .detail_item_content_tabs_props {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    li {
+      width: 50%;
+      padding: 5px 0px !important;
+    }
+  }
+  #detail_printable_content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 40px;
+
+  }
+}
